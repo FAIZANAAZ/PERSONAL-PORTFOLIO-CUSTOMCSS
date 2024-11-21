@@ -1,0 +1,257 @@
+.resume-section {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0.5rem;
+  }
+  
+  .resume-container {
+    background-color: #94a3b8;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    width: 100%;
+    max-width: 56rem;
+  }
+  
+  .resume-header {
+    background-color: #dc2626;
+    padding: 1rem;
+  }
+  
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .personal-info {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .name {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    text-decoration: underline;
+    margin-top: 0.5rem;
+  }
+  
+  .profile-picture {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 9999px;
+    border: 4px solid white;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .contact-info {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #64748b;
+    padding: 0.5rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 0.75rem;
+  }
+  
+  .contact-item {
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-item i {
+    margin-right: 0.5rem;
+  }
+  
+  .resume-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main-content {
+    width: 100%;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: #dc2626;
+    padding: 0.5rem;
+    border: 2px solid black;
+    margin-bottom: 1rem;
+  }
+  
+  .education-section, .skills-section {
+    margin-bottom: 1.5rem;
+  }
+  
+  .education-item, .skill-item {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #111827;
+  }
+  
+  .education-item i, .work-experience-content i {
+    margin-right: 0.5rem;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding-left: 0.5rem;
+  }
+  
+  .sidebar {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  
+  .work-experience-section {
+    background-color: #94a3b8;
+    border: 2px solid black;
+    padding: 1rem;
+  }
+  
+  .work-experience-content {
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #111827;
+  }
+  
+  .languages-content {
+    display: flex;
+  }
+  
+  .language-item {
+    font-size: 1rem;
+    margin-right: 1rem;
+    font-weight: 600;
+    color: #111827;
+  }
+  
+  @media (min-width: 640px) {
+    .resume-section {
+      padding: 1rem;
+    }
+  
+    .name {
+      font-size: 2.25rem;
+    }
+  
+    .title {
+      font-size: 1.875rem;
+    }
+  
+    .profile-picture {
+      width: 10rem;
+      height: 10rem;
+    }
+  
+    .contact-info {
+      font-size: 0.875rem;
+      padding: 1rem;
+    }
+  
+    .section-title {
+      font-size: 1.875rem;
+    }
+  
+    .education-item, .skill-item, .language-item {
+      font-size: 1.125rem;
+    }
+  
+    .work-experience-content {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .resume-section {
+      padding: 1.5rem;
+    }
+  
+    .contact-info {
+      flex-direction: row;
+    }
+  
+    .contact-item {
+      margin-bottom: 0;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .resume-section {
+      padding: 2rem;
+    }
+  
+    .header-content {
+      flex-direction: row;
+    }
+  
+    .personal-info {
+      text-align: left;
+      margin-bottom: 0;
+    }
+  
+    .name {
+      font-size: 3rem;
+    }
+  
+    .title {
+      font-size: 2.25rem;
+    }
+  
+    .profile-picture {
+      width: 12rem;
+      height: 12rem;
+    }
+  
+    .resume-body {
+      flex-direction: row;
+    }
+  
+    .main-content {
+      width: 60%;
+      padding-right: 1rem;
+    }
+  
+    .sidebar {
+      width: 40%;
+      margin-top: 0;
+    }
+  
+    .section-title {
+      font-size: 2.25rem;
+    }
+  
+    .education-item, .skill-item, .language-item {
+      font-size: 1.25rem;
+    }
+  
+    .work-experience-content {
+      font-size: 1.125rem;
+    }
+  }
+  
+  
