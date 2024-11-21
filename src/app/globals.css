@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  section {
+    width: 100%;
+    overflow-x: hidden; /* Ensures no horizontal scroll for the section */
+  }
+ /* Webkit scrollbar styles */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff3333;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ff0000 #1a1a1a;
+}
+
+/* Optional: Add smooth scrolling to the whole page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add a subtle shadow to the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  box-shadow: 0 0.0625rem 0.9375rem #ff0000;
+} 
+
+.blolb{
+  filter: blur(3px);
+  box-shadow :0px 1px 15px #ff3333;
+}
